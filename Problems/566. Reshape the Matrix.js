@@ -3,7 +3,7 @@ var matrixReshape = function(mat, r, c) {
     let mat2=new Array(r);
     let mat3=[];;
     for (i=0;i<mat.length;i++) {
-        for (j=0;j<mat.length;j++) {
+        for (j=0;j<mat[0].length;j++) {
             mat3.push(mat[i][j]);
         }
     }
@@ -29,14 +29,14 @@ var matrixReshape = function(mat, r, c) {
                 k++;
             }
         }
-        console.log(mat2);
+        //console.log(mat2);
         return mat2;
     }
     else{
-        console.log(mat);
+        //console.log(mat);
         return mat;
     }
     
 }; 
 
-matrixReshape([[1,2],[3,4]],4,1);
+// matrixReshape([[1,2,3,4]],2,2);
