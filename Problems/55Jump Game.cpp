@@ -10,6 +10,7 @@ using namespace std;
           }
 
       }
+      cout << "a";
        return  (nums[0] >= target);
 
 
