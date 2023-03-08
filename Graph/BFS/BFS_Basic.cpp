@@ -7,7 +7,6 @@ using namespace std;
 // using namespace __gnu_pbds;
 #define ll long long int
 #define pb push_back
-#define fuck_off return 0
 #define endl "\n"
 #define  boost   ios::sync_with_stdio(false);cin.tie(nullptr) ; 
 #define rv reverse(v.begin(),v.end())
