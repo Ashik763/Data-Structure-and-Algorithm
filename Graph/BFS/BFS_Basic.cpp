@@ -17,7 +17,7 @@ vector<int> g[N];
 int vis[N];
 int level[N];
 
-   void dfs(int source){
+   void bfs(int source){
       queue<ll> q;
       q.push(source);
       vis[source] = 1;
@@ -57,7 +57,7 @@ int main() {
 
    }
 
-   dfs(1);
+   bfs(1);
 
 
 
